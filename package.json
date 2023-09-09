@@ -13,8 +13,9 @@
 	"scripts": {
 		"test": "xo && ava && tsd"
 	},
+	"type": "module",
 	"files": [
-		"index.js",
+		"index.mjs",
 		"index.d.ts"
 	],
 	"keywords": [

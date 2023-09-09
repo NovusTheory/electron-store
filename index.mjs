@@ -1,7 +1,7 @@
 'use strict';
-const path = require('path');
-const {app, ipcMain, ipcRenderer, shell} = require('electron');
-const Conf = require('conf');
+import path from 'path';
+import {app, ipcMain, ipcRenderer, shell} from 'electron';
+import Conf from 'conf';
 
 let isInitialized = false;
 
@@ -78,4 +78,4 @@ class ElectronStore extends Conf {
 	}
 }
 
-module.exports = ElectronStore;
+export default ElectronStore;

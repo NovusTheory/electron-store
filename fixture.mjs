@@ -1,7 +1,7 @@
 'use strict';
-const assert = require('assert');
-const electron = require('electron');
-const Store = require('.');
+import assert from 'assert';
+import electron from 'electron';
+import Store from '.';
 
 // Prevent Electron from never exiting when an exception happens
 process.on('uncaughtException', error => {
